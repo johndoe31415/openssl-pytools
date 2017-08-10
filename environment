@@ -1,0 +1,5 @@
+BASE=${HOME}/openssl
+export LD_LIBRARY_PATH=${BASE}/git
+export PATH=${BASE}/git/apps:${BASE}/openssl-pytools:${PATH}
+export INDENT_PROFILE=${BASE}/git/util/indent.pro
+export PS1="(ossl) ${PS1}"
